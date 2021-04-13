@@ -1,0 +1,6 @@
+-
+  name: check connectivity to target servers
+  host: ansibletarget1
+  tasks:
+    - name: ping test
+      ping:
